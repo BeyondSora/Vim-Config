@@ -1,0 +1,100 @@
+        case INT:           kindString = "INT";         break;,V
+:,v
+",v
+0,v
+9,v
+8,v
+7,v
+6,v
+5,v
+4,v
+3,v
+2,v
+1,v
+#define ONE_TO_NINE     "123456789",V
+\,v
+',v
+,V
+    //LSQUOTE,    // first ',V
+    //RSQUOTE,    // second ',V
+        //case RSQUOTE:       kindString = "RSQUOTE";     break;,V
+        //case LSQUOTE:       kindString = "LSQUOTE";     break;,V
+.,v
+ ,v
+,,v
+t,v
+w,v
+o,v
+n,v
+i,v
+a,v
+u,v
+q,v
+e,v
+l,v
+g,v
+s,v
+RSQUOTE,v
+LSQUOTE,v
+    common::CHAR,           // CHAR,V
+    ST_CHAR,        // CHAR,V
+    setT( ST_CHAR,       "\"",           ST_RDQUOTE    );,V
+    setT( ST_START,      "\"",           ST_LDQUOTE    );,V
+    setT( ST_CHAR,       ASCII,          ST_CHAR       );,V
+    setT( ST_LDQUOTE,    ASCII,          ST_CHAR       );,V
+    common::RDQUOTE,        // second ",V
+    common::LDQUOTE,        // first ",V
+    ST_RDQUOTE,     // second ",V
+    ST_LDQUOTE,     // first ",V
+    RDQUOTE,    // second ",V
+    LDQUOTE,    // first ",V
+        case RDQUOTE:       kindString = "RDQUOTE";     break;,V
+        case LDQUOTE:       kindString = "LDQUOTE";     break;,V
+/,v
+    //setT( ST_CHAR,       ASCII,          ST_CHAR       );,V
+        case RSQUOTE:       kindString = "RSQUOTE";     break;,V
+        case LSQUOTE:       kindString = "LSQUOTE";     break;,V
+PAREN,v
+        case LPAREN:        kindString = "LPAREN";      break;,V
+INT,v
+CHAR,v
+        case CHAR:          kindString = "CHAR";        break;,V
+ASCII,v
+LDQUOTE,v
+START,v
+        ,4
+first,v
+NUL,v
+    ,1
+    SQUOTE,     // ',V
+    LDQUOTE,     // ",V
+    ST_SQUOTE,    // second ',V
+    ST_DQUOTE,    // second ",V
+S,v
+_,v
+    common::NUL,            // first ",V
+    DQUOTE,     // ",V
+INTK,v
+int,v
+    else if (token.lexeme == "int")     token.kind = common::INTK;,V
+RETURN,v
+return,v
+    else if (token.lexeme == "return")  token.kind = common::RETURN;,V
+I,v
+        case RETURN:        kindString = "RETURN";      break;,V
+ keyword,v
+                               ,1
+d,v
+h,v
+#include <cstdlib>,V
+;,v
+        int i;,V
+ << std::endl;,v
+    assert(this->kind == INT);,V
+    //not implemented yet,V
+#include <assert.h>,V
+WHITESPACE,v
+        case WHITESPACE: kindString = "WHITESPACE"; break;,V
+COMMENT,v
+        case COMMENT: kindString = "COMMENT"; break;,V
+SEMI,v

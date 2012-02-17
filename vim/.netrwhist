@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/jimmy/.dropboxSYNC/Dropbox/BACKUP/config/vim/bundle/majutsushi-tagbar-81b1688'
+let g:netrw_dirhist_2='/home/jimmy/.dropboxSYNC/Dropbox/BACKUP/config/vim/bundle'
+let g:netrw_dirhist_3='/home/jimmy/.dropboxSYNC/Dropbox/BACKUP/config/vim/bundle/my_settings'
+let g:netrw_dirhist_4='/home/jimmy/.dropboxSYNC/Dropbox/BACKUP/config/vim/bundle/my_settings/ftplugin'
+let g:netrw_dirhist_5='/home/jimmy/.vim'
+let g:netrw_dirhist_6='/home/jimmy/.vim_local'
+let g:netrw_dirhist_7='/home/jimmy/.vim'
